@@ -1,0 +1,142 @@
+body{
+     text-align: center; 
+}
+
+
+
+h1,h2,h3{
+     font-family: fantasy;   
+}
+
+p{
+   color: #8f8f8f;  
+}
+.container-fluid{
+     padding: 3% 10% 15%;
+}
+#title{
+     background-color:#ff4c68;
+     color: #fff;
+     text-align: left;
+     
+}
+                             /*heading*/
+.big-heading{
+     font-size:3.5rem ;
+     line-height:1.5;
+}
+.section-heading{
+     font-size: 3rem;
+     line-height: 2;
+}
+ 
+.navbar{
+     padding:0px 0px 40px;
+}
+/*navbar*/
+.navbar-brand{
+     font-family: monospace;
+     font-size: 2.5rem;
+     font-weight: bold;
+}
+.nav-item{
+     padding:0px 18px ;
+}
+.nav-link{
+     font-size: 1.5rem;
+}
+.btn{
+     margin: 20px 10px 0px 0px;
+}
+.title-image{
+     width: 60%;
+     transform: rotate(25deg);
+     position: absolute;
+     left:10%;
+
+}
+#features{
+         padding:5% 15%;
+         background-color:#fff;
+         position:relative;
+         
+}
+.features-tite{
+     font-weight: bold;
+     line-height:1.5;
+}
+.col-lg-4{
+     padding: 5%;
+}
+
+
+#testimonials{
+     background-color: #ef8172;
+     color: white;
+
+}
+
+.testimonials-text{
+     font-size: 3rem;
+     line-height: 2;
+}
+
+
+.testimonial-image{
+     width: 15%;
+     border-radius: 100%;
+     margin: 20px;
+}
+.carousel-item{
+     padding: 3% 20%;
+}
+
+#press{
+     background-color: #ef8172;
+     padding-bottom: 3%;
+}
+.press-img{
+     width: 15%;
+     margin: 20px 20px;
+}
+#pricing{
+  padding:100px;
+  text-align: center;
+}
+.pricing-text{
+     font-size: 3rem;
+     line-height: 2;
+}
+.pricing-col{
+     padding:3% 2%;
+}
+#cta{
+     background-color:#ff4c68;
+     padding:7% 15%;
+     font-family: fantasy;
+     color: #fff;
+}
+
+#footer{
+     background-color:#fff;
+     padding:7% 15%;
+     color: black;
+     font-weight: bold;
+}
+.social-icon{
+     margin:20px 30px;
+}
+@media(max-width:1000px){
+     .title-image{
+          position:static;
+          transform: rotate(0);
+     }
+     .col-lg-6{
+          padding:20px;
+     }
+     #title{
+          text-align: center;
+          padding: 0px;
+          
+     }
+}
